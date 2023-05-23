@@ -1,0 +1,52 @@
+﻿  File Enumeration.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(5,21): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : see declaration of 'std'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(5,31): error C2878: 'filesystem': a namespace or class of this name does not exist
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(9,5): error C2653: 'fs': is not a class or namespace name
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(9,9): error C2065: 'path': undeclared identifier
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(9,14): error C2146: syntax error: missing ';' before identifier 'drive_path'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(9,14): error C2065: 'drive_path': undeclared identifier
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,30): error C2653: 'fs': is not a class or namespace name
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,53): error C2065: 'drive_path': undeclared identifier
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,34): error C3861: 'directory_iterator': identifier not found
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,52): error C2672: 'begin': no matching overloaded function found
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,66): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xutility(1844): message : see declaration of 'std::begin'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,66): message : With the following template arguments:
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,66): message : '_Container=unknown-type'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,66): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\initializer_list(55): message : see declaration of 'std::begin'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,52): error C2672: 'end': no matching overloaded function found
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,66): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xutility(1854): message : see declaration of 'std::end'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,66): message : With the following template arguments:
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,66): message : '_Container=unknown-type'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,66): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\initializer_list(60): message : see declaration of 'std::end'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,66): error C3536: '<begin>$L0': cannot be used before it is initialized
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,66): error C3536: '<end>$L0': cannot be used before it is initialized
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(12,64): error C2100: illegal indirection
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,42): error C2653: 'fs': is not a class or namespace name
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,46): error C3861: 'directory_iterator': identifier not found
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,64): error C2672: 'begin': no matching overloaded function found
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,80): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xutility(1844): message : see declaration of 'std::begin'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,80): message : With the following template arguments:
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,80): message : '_Container=unknown-type'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,80): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\initializer_list(55): message : see declaration of 'std::begin'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,64): error C2672: 'end': no matching overloaded function found
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,80): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xutility(1854): message : see declaration of 'std::end'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,80): message : With the following template arguments:
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,80): message : '_Container=unknown-type'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,80): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\initializer_list(60): message : see declaration of 'std::end'
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,80): error C3536: '<begin>$L1': cannot be used before it is initialized
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,80): error C3536: '<end>$L1': cannot be used before it is initialized
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(19,78): error C2100: illegal indirection
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(28,28): error C2653: 'fs': is not a class or namespace name
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(28,32): error C3861: 'file_size': identifier not found
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(35,20): error C2653: 'fs': is not a class or namespace name
+C:\Users\Vaibhav\source\repos\Assignments\File Enumeration\File Enumeration.cpp(35,24): error C3861: 'file_size': identifier not found
